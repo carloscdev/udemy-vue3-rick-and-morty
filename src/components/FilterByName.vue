@@ -32,14 +32,11 @@ export default {
 .search {
   width: 400px;
   margin: 3rem auto 0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  border-radius: 10px;
-  overflow: hidden;
   input {
     height: 53px;
     width: 400px;
     border: none;
+    border-radius: 10px;
     padding: 0 0.5rem;
   }
 }
